@@ -21,7 +21,7 @@ mysql_secure_installation
 
 # To install PHP, open terminal and type in this command.
 
-apt-get install php5 libapache2-mod-php5 php5-mcrypt
+apt-get install php5 libapache2-mod-php5 php5-mcrypt php5-curl php5-json #php5-redis
 
 #
 #It may also be useful to add php to the directory index, to serve the relevant php index files:
