@@ -21,5 +21,5 @@ echo -n ",DNS:bitmail.bitbaba.com"         >> domain.cnf
 echo -n ",DNS:miner.bitbaba.com"           >> domain.cnf
 echo -n ",DNS:ex.bitbaba.com"              >> domain.cnf
 
-openssl req -new -sha256 -key domain.key -subj "/CN=BITBABA.COM" -reqexts SAN -config ./domain.cnf > domain.csr
+openssl req -new -sha256 -key domain.key -subj "/CN=bitbaba.com/O=BITBABA.COM/S=Shanghai/C=CN" -reqexts SAN -config ./domain.cnf > domain.csr
 

@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # /root/sandbox/var/www/html/.well-known/acme-challenge/
-CHAN_DIR=/root/sandbox/var/www/html/.well-known/acme-challenge/
+CHAN_DIR=/var/www/html/.well-known/acme-challenge/
 
 mkdir -p ${CHAN_DIR}
 
